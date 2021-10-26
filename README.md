@@ -18,9 +18,5 @@ This agent monitors the Compound protocol and alerts when:
   - Severity is always set to "High"
   - Type is always set to "Suspicious"
   - Metadata fields included:
-    - `ctokenCurrentExchangeRate`
-    - `ctokenPreviousExchangeRate`
-
-## Test Data
-
-The agent behaviour can be verified with the following transactions:
+    - `ctokenCurrentExchangeRate` - current Cether token exchange rate
+    - `ctokenPreviousExchangeRate` - previous Cether token exchange rate
