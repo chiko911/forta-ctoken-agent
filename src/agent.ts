@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { BlockEvent, Finding, HandleBlock, HandleTransaction, TransactionEvent, FindingSeverity, FindingType } from 'forta-agent'
+import { BlockEvent, Finding, HandleTransaction, TransactionEvent, FindingSeverity, FindingType } from 'forta-agent'
 import { CETHER_TOKEN_ADDRESS, ERC20_TRANSFER_EVENT_SIG } from './constants'
 
   var ctokenBasicRate = new BigNumber(0.0020)
